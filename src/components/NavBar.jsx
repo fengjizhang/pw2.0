@@ -5,32 +5,26 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import '../css files/navbar.css';
 
 export default function NavBar() {
   return (
     <Router>
-      <div>
+      <div className="navBar">
         <nav>
-          <ul>
-            <li>
-              <Link to="/home">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/resume">Resume</Link>
-            </li>
-            <li>
-              <Link to="/projects">Projects</Link>
-            </li>
-            <li>
-              <Link to="/activities">Activities</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
-          </ul>
+          
+              <Link className="options" to="/home">Home</Link>
+            
+              <Link className="options" to="/about">About</Link>
+            
+              <Link className="options" to="/resume">Resume</Link>
+            
+              <Link className="options" to="/projects">Projects</Link>
+            
+              <Link className="options" to="/activities">Activities</Link>
+            
+              <Link className="options" to="/contact">Contact</Link>
+            
         </nav>
 
         {/* A <Switch> looks through its children <Route>s and

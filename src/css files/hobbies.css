@@ -1,0 +1,7 @@
+.hobbies {
+    background-color: rgb(245, 195, 130);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
