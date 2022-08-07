@@ -5,6 +5,9 @@ import About from './components/About.jsx';
 import Resume from './components/Resume.jsx';
 import Hobbies from './components/Hobbies.jsx';
 import Projects from './components/Projects.jsx';
+import Statistics from './components/Statistics.jsx';
+import Contact from './components/Contact.jsx';
+import Footer from './components/Footer.jsx';
 
 
 function App() {
@@ -16,6 +19,9 @@ function App() {
       <Resume />
       <Projects />
       <Hobbies />
+      <Statistics />
+      <Contact />
+      <Footer />
     </div>
   );
 }
