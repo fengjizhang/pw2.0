@@ -11,7 +11,7 @@ const About = (props) => {
                  independent teamworker, strong in picking up things quickly and learning as we go. </div><br></br>
             <div className='pands'>
                 <div className='section2'>
-                    <h3>Profile</h3>
+                    <div className='about3'>Profile</div>
                     <div className='profileS'>I am looking for software engineering opportunities, if you think I'm a good fit don't hesitate to 
                         contact me.</div><br></br>
                     <div className='category'>Email:</div>
@@ -20,7 +20,7 @@ const About = (props) => {
                     <div>(917) 251 - 3612</div>
                 </div>
                 <div >
-                    <h3>Skills</h3>
+                    <div className='about3'>Skills</div>
                     <div className='skillsSection'>
                         <div className='category'>Front-End: <span className='skills5'>JavaScript (ES5 and ES6), TypeScript, NextJS, React, HTML5, CSS3, Redux, Authentication.</span></div>
                         <div className='category'>Back-End: <span className='skills5'>Node.js, Express, PostgreSQL, MongoDB, MySQL, RESTful API Development</span></div>

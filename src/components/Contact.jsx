@@ -1,21 +1,31 @@
-
+import '../css files/contact.css';
+import { AiFillMail, AiFillCompass } from "react-icons/ai";
 const Contact = (props) => {
 
     return (
         <div className="contact">
-            <h4>Contact</h4>
-            <p>Let me introduce myself</p>
-            <p>introduction placeholder123</p>
-            <div className='pands'>
-                <div>
-                    <h3>Profile</h3>
-                    <p>currently ...</p>
-                </div>
-                <div>
-                    <h3>Skills</h3>
-                    <p> ...</p>
+            <div className='contact1'>Contact</div>
+            <div className='contact2'>Let me introduce myself</div>
+            <div className='contact3'>So you can get to know me a bit more</div>
+
+            <div className='infoContainer'>
+                
+                <div className='contact5'>Location
+                    <div className='contact6'>Columbus, OH</div>
                 </div>
 
+                <div className='contact5'>Email
+                    <div className='contact6'>fengji.zhang0@gmail.com</div>
+                </div>
+
+                <div className='contact5'>Let's Connect
+                    <div className='contact6'>link</div>
+                </div>
+
+                <div className='contact5'>Github
+                    <div className='contact6'>link</div>
+                </div>
+                
             </div>
         </div>
     )
