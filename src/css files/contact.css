@@ -35,6 +35,35 @@
     flex-direction: row;
 }
 
+
+
+.linktext {
+    color: rgb(5, 145, 180);
+    text-decoration: none;
+}
+
+.linktext:visited {
+    color: rgb(5, 145, 180);
+    text-decoration: none;
+}
+
+.infoContainer {
+    margin-top: 10%;
+}
+
+.blockContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.contactIcons {
+    margin-bottom: 20px;
+}
+
 .contact5 {
     font-weight: bold;
     color: #EB8A3D;
