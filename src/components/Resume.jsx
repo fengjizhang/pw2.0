@@ -10,7 +10,7 @@ const Resume = (props) => {
             <p className='resumefour'>Software Engineering Projects</p>
             <div className='containerExp'>
                 <p className='resume5'>Bark<br></br>
-                <span className='resume6'>Fullstack social media website for pet owners</span><br></br>
+                <span className='resume6'>Fullstack social media website</span><br></br>
                 <span className='resume7'>Collaborated with a team of six engineers to build a responsive app utilizing Next.js, Google Maps API, that allowed pet owners to connect with other pet owners in close proximity.
                 Created, managed, and stored tables of user data using PostgreSQL database. 
                 Developed app integration with REST and other APIs for login authentication, Google Maps, chat functions and other services.

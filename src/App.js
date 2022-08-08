@@ -10,6 +10,8 @@ import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
 import { IconContext } from "react-icons";
 import {BsArrowDownShort } from "react-icons/bs";
+
+
 function App() {
   return (
     <div className='container'>
