@@ -8,6 +8,8 @@ const Projects = (props) => {
             <p>Bark</p>
             <p>Blaze</p>
             <p>BlueMountain </p>
+            <p>Personal Website</p>
+            <p>flying object tracking</p>
         </div>
     )
 }

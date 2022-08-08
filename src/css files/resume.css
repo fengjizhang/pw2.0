@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    padding: 3% 0 5% 0;
 }
 
 .resumeone {
@@ -26,4 +26,51 @@
 .resumefour {
     color: #EB8A3D;
     font-size: 30px;
+    margin-top: 5%;
+}
+.containerExp {
+    width: 60%;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(210, 210, 210);
+}
+.resume5 {
+    color: rgb(58, 184, 198);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.resume6 {
+    color: rgb(16, 16, 16);
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.resume7 {
+    color: rgb(131, 130, 130);
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.containerEdu {
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(210, 210, 210);
+    width: 60%;
+}
+.resume8 {
+    color: rgb(27, 27, 27);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.resume9 {
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.resume11 {
+    font-weight: lighter;
+    font-size: 20px;
+    color: rgb(151, 151, 151);
 }
