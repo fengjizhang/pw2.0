@@ -1,4 +1,21 @@
 .container {
   background-color: rgb(255, 222, 222);
   width: 100%;
+  font-family: "Helvetica now" , "Helvetica" , sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+.landingpage {
+  height: 100vh;
+  background-image: url("/src/images/wallpaperflare.com_wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #f7f7f7;
+}
+
+.arrowD {
+  margin-left: 47%;
+  margin-right: 47%;
+  justify-content: flex-end;
 }

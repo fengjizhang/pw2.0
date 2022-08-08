@@ -11,21 +11,16 @@ export default function NavBar() {
   return (
     <Router>
       <div className="navBar">
-        <nav>
+        <div className="links">
+          <Link className="options" to="/home">Home</Link>
+          <Link className="options" to="/about">About</Link>
+          <Link className="options" to="/resume">Resume</Link>
+          <Link className="options" to="/projects">Projects</Link>
+          <Link className="options" to="/activities">Activities</Link>
+          <Link className="options" to="/statistics">Statistics</Link>
+          <Link className="options" to="/contact">Contact</Link>
+        </div>
           
-              <Link className="options" to="/home">Home</Link>
-            
-              <Link className="options" to="/about">About</Link>
-            
-              <Link className="options" to="/resume">Resume</Link>
-            
-              <Link className="options" to="/projects">Projects</Link>
-            
-              <Link className="options" to="/activities">Activities</Link>
-            
-              <Link className="options" to="/contact">Contact</Link>
-            
-        </nav>
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
@@ -40,22 +35,12 @@ export default function NavBar() {
           </Route>
           <Route path="/activities">Activities
           </Route>
+          <Route path="/statistics">Statistics
+          </Route>
           <Route path="/contact">Contact
           </Route>
         </Routes>
       </div>
     </Router>
   );
-}
-
-function Home() {
-  return <h2>Home</h2>;
-}
-
-function About() {
-  return <h2>About</h2>;
-}
-
-function Users() {
-  return <h2>Users</h2>;
 }

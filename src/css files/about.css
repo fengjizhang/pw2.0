@@ -1,8 +1,65 @@
 .about {
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: brown;
+    background-color: #040c2a;
+    color: whitesmoke;
+    height: 100vh;
+    padding: 0 15% 0 15%;
+}
+
+.one {
+    color: #EB8A3D;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.two {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(251, 251, 251);
+
+}
+
+.three {
+    width: 70%;
+    line-height: 1.6;
+    color: rgb(190, 190, 190);
+    font-size: 20px;
+}
+
+.pands {
+    display: flex;
+    flex-direction: row;
+    line-height: 1.6;
+}
+
+.profileS {
+    width: 80%;
+    color: rgb(190, 190, 190);
+}
+
+.section2 {
+    margin-right: 5%;
+
+}
+
+.category {
+    color: rgb(124, 124, 124);
+    font-weight: bold;
+}
+
+.skillsSection {
+    color: rgb(190, 190, 190);
+    
+}
+
+.info {
+}
+
+.skills5 {
+    font-weight: lighter;
+    color: rgb(190, 190, 190);
 }

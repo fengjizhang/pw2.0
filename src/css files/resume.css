@@ -1,7 +1,29 @@
-.resume {
-    background-color: antiquewhite;
+.resumePage {
+    background-color: rgb(255, 253, 250);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+}
+
+.resumeone {
+    color: #EB8A3D;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.resumetwo {
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.resumethree {
+    color: gray;
+}
+
+.resumefour {
+    color: #EB8A3D;
+    font-size: 30px;
 }
