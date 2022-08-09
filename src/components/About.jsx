@@ -8,7 +8,7 @@ const About = (props) => {
             <p className='two'>Let me introduce myself.</p><br></br>
             <div className='three'>I am a full-stack engineer majoring in Electrical and Computer Engineering at Ohio State University. I am graduating May 2024.
                  My primary interests have been software engineering, operating systems and interface design, and the list is still growing. I am an 
-                 independent teamworker, strong in picking up things quickly and learning as we go. </div><br></br>
+                 independent teamworker, strong in picking up things quickly and learning as I go. </div><br></br>
             <div className='pands'>
                 <div className='section2'>
                     <div className='about3'>Profile</div>
