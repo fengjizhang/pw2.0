@@ -20,8 +20,7 @@ export default function NavBar() {
           <Link className="options" to="/statistics">Statistics</Link>
           <Link className="options" to="/contact">Contact</Link>
         </div>
-          
-
+        
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Routes>

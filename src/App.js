@@ -10,6 +10,8 @@ import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
 import { IconContext } from "react-icons";
 import { AiOutlineArrowDown } from "react-icons/ai";
+import * as Scroll from 'react-scroll';
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 const App = () => {
 
@@ -29,6 +31,7 @@ const App = () => {
       <Statistics /> */}
       <Contact />
       <Footer />
+      <button>go top</button>
     </div>
   );
 }
