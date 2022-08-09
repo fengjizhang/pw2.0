@@ -45,11 +45,11 @@ const Resume = (props) => {
                 </p><br></br>
             </div>
 
-            <div className='containerEdu'>
+            {/* <div className='containerEdu'>
                 <p className='resume8'>University of Pittsburgh <br></br><span className='resume11'>Bachelor's Degree 2017-2019</span><br></br>
                 <span className='resume9'>Majored in Economics</span><br></br>
                 </p><br></br>
-            </div>
+            </div> */}
         </div>
     )
 }

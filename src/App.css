@@ -29,11 +29,12 @@
 .arrowD:hover{
   animation: MoveUpDown 1s linear ;
 }
+
 @keyframes MoveUpDown {
   0%, 100% {
     bottom: 0;
   }
-  50% {
+  30% {
     bottom: 20px;
   }
 }
