@@ -15,12 +15,8 @@
 }
 
 .arrowD {
-  margin-left: 47%;
-  margin-right: 47%;
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: flex-end;
   margin-top: 15%;
+  margin-left: 48%;
 }
 
 
