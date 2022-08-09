@@ -5,6 +5,7 @@ import { AiFillLinkedin, AiFillPhone, AiFillGithub, AiFillMail } from "react-ico
 
 const Landing = (props) => {
 
+
     return (
         <div className="landingOne">
             <div className='nameBig'>
@@ -13,17 +14,20 @@ const Landing = (props) => {
             </div>
 
             <span className='iconsGroup'>
-                <IconContext.Provider value={{ color: "white", size: '30px', className: "icon1"}}>
-                        <AiFillLinkedin />
+                <IconContext.Provider value={{ color: "white", size: '30px', className: "icon1"}} >
+                    <a target="_blank" href="https://www.linkedin.com/in/fengjizhang/" rel="noreferrer" ><AiFillLinkedin /></a>
                 </IconContext.Provider>
+
                 <IconContext.Provider value={{ color: "white", size: '30px', className: "icon1"}}>
-                        <AiFillPhone />
+                    <a href="tel:9172513612"><AiFillPhone /></a>
                 </IconContext.Provider>
+
                 <IconContext.Provider value={{ color: "white", size: '30px', className: "icon1"}}>
-                        <AiFillGithub />
+                    <a target="_blank" href="https://github.com/fengjizhang" rel="noreferrer" ><AiFillGithub /></a>
                 </IconContext.Provider>
+
                 <IconContext.Provider value={{ color: "white", size: '30px', className: "icon1"}}>
-                        <AiFillMail />
+                    <a target="_blank" href="mailto:fengji.zhang0@gmail.com" rel="noreferrer" ><AiFillMail /></a>
                 </IconContext.Provider>
             </span>
         </div>

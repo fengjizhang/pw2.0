@@ -4,7 +4,7 @@ const Resume = (props) => {
 
     return (
         <div className="resumePage">
-            <h4 className='resumeone'>Resume</h4>
+            <h4 className='resumeone'>Resume</h4><br></br>
             <div className='resumetwo'>More of my credentials.</div>
             <div className='resumethree'>Here are my experiences and education.</div><br></br>
             <p className='resumefour'>Software Engineering Projects</p>
@@ -16,7 +16,7 @@ const Resume = (props) => {
                 Developed app integration with REST and other APIs for login authentication, Google Maps, chat functions and other services.
                 Used Git and Github for source control and repo management. 
                 Participated in daily standups, codereviews, and debugged as part of AGILE development team to ensure all code was within standards and specifications of the team. </span>
-                </p>
+                </p><br></br>
             </div>
             <div className='containerExp'>
                 <p className='resume5'>Blaze<br></br>
@@ -26,7 +26,7 @@ const Resume = (props) => {
                 Responsible for building API endpoints and tested with Postman REST clients. 
                 Deployed five EC2 instances on AWS behind Elastic Load Balancer to sustain 600 RPS.
                 </span>
-                </p>
+                </p><br></br>
             </div>
 
             <div className='containerExp'>
@@ -35,20 +35,20 @@ const Resume = (props) => {
                 <span className='resume7'>Designed and styled web app with quality aesthetics utilizing React higher order functions that presents an effective and responsive website.
                     Utilized axios client to interact with RESTful API in a controlled session.
                 </span>
-                </p>
+                </p><br></br>
             </div>
 
             <p className='resumefour'>Education</p>
             <div className='containerEdu'>
-                <p className='resume8'>Ohio State University <br></br><span className='resume11'>Bachelor's Degree 2020-2024</span><br></br>
+                <p className='resume8'>Ohio State University <br></br><span className='resume11'>Bachelor's Degree 2020-2023</span><br></br>
                 <span className='resume9'>Major in Electrical and Computer Engineering, specializing in computer engineering.</span><br></br>
-                </p>
+                </p><br></br>
             </div>
 
             <div className='containerEdu'>
                 <p className='resume8'>University of Pittsburgh <br></br><span className='resume11'>Bachelor's Degree 2017-2019</span><br></br>
                 <span className='resume9'>Majored in Economics</span><br></br>
-                </p>
+                </p><br></br>
             </div>
         </div>
     )

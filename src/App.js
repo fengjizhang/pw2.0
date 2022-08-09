@@ -9,17 +9,17 @@ import Statistics from './components/Statistics.jsx';
 import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
 import { IconContext } from "react-icons";
-import {BsArrowDownShort } from "react-icons/bs";
+import { AiOutlineArrowDown } from "react-icons/ai";
 
+const App = () => {
 
-function App() {
   return (
     <div className='container'>
       <div className='landingpage'>
         <NavBar />
         <Landing />
-        <IconContext.Provider value={{ color: "white", size: '100px', className: "arrowD"}}>
-                <BsArrowDownShort />
+        <IconContext.Provider value={{ size: '60px', className: "arrowD"}}>
+                <AiOutlineArrowDown />
         </IconContext.Provider>
       </div>
       <About />
