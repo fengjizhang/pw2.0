@@ -7,7 +7,7 @@ import navi from '../images/navi.png';
 
 const Projects = (props) => {
 
-    const projectContent1 = [bark, api, fend, websitepic];
+    // const projectContent1 = [bark, api, fend, websitepic];
     const projectContent3 = [[bark, 'https://github.com/fengjizhang/Bark'], [api, 'https://github.com/rfp-sdc-blaze'], [fend, 'https://github.com/Blue-Mountain-Lightning/bml-fec'], [websitepic, 'https://github.com/fengjizhang/pw2.0']];
 
     const listItems = projectContent3.map((obj) => {
