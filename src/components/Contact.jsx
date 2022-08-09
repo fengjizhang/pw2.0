@@ -1,5 +1,5 @@
 import '../css files/contact.css';
-import { AiFillMail, AiFillCompass,AiFillGithub,AiFillLinkedin } from "react-icons/ai";
+import { AiFillMail, AiFillCompass,AiFillGithub,AiFillLinkedin, AiFillCaretUp } from "react-icons/ai";
 import { IconContext } from "react-icons";
 
 const Contact = (props) => {
@@ -37,7 +37,7 @@ const Contact = (props) => {
                     </IconContext.Provider>
                     
                     <div className='contact5'>Let's Connect!
-                        <div className='contact6'><a className="linktext" href="https://www.linkedin.com/in/fengjizhang/">LinkedIn</a></div>
+                        <div className='contact6'><a className="linktext" target="_blank" href="https://www.linkedin.com/in/fengjizhang/" rel="noreferrer">LinkedIn</a></div>
                     </div>
                 </div>
                 
@@ -47,11 +47,16 @@ const Contact = (props) => {
                     </IconContext.Provider>
                     
                     <div className='contact5'>Portfolio link
-                        <div className='contact6'><a className="linktext" href="https://github.com/fengjizhang">Github</a></div>
+                        <div className='contact6'><a className="linktext" target="_blank" href="https://github.com/fengjizhang" rel="noreferrer">Github</a></div>
                     </div>
                 </div>
                 
             </div>
+            
+            <IconContext.Provider value={{ color: "white", size: '50px', className: "contactIcons" }}>
+                <AiFillCaretUp className="goTopButton" onClick={props.click} />
+                <div className='goTopText'>Go top</div>
+            </IconContext.Provider>
         </div>
     )
 }

@@ -40,7 +40,7 @@ const Resume = (props) => {
 
             <p className='resumefour'>Education</p>
             <div className='containerEdu'>
-                <p className='resume8'>Ohio State University <br></br><span className='resume11'>Bachelor's Degree 2020-2023</span><br></br>
+                <p className='resume8'>Ohio State University <br></br><span className='resume11'>Bachelor's Degree 2020-2024</span><br></br>
                 <span className='resume9'>Major in Electrical and Computer Engineering, specializing in computer engineering.</span><br></br>
                 </p><br></br>
             </div>

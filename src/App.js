@@ -10,28 +10,59 @@ import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
 import { IconContext } from "react-icons";
 import { AiOutlineArrowDown } from "react-icons/ai";
-import * as Scroll from 'react-scroll';
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { useRef } from 'react';
 
 const App = () => {
+
+  const refGoTop = useRef(null);
+  const refGoAbout = useRef(null);
+  const refGoResume = useRef(null);
+  const refGoProjects = useRef(null);
+  const refGoContact = useRef(null);
+
+  const handleClick = () => {
+    refGoTop.current?.scrollIntoView({behavior: 'smooth'});
+  };
+
+  const handleClickAbout = () => {
+    refGoAbout.current?.scrollIntoView({behavior: 'smooth'});
+  }
+
+  const handleClickResume = () => {
+    refGoResume.current?.scrollIntoView({behavior: 'smooth'});
+  }
+
+  const handleClickProjects = () => {
+    refGoProjects.current?.scrollIntoView({behavior: 'smooth'});
+  }
+
+  const handleClickContact = () => {
+    refGoContact.current?.scrollIntoView({behavior: 'smooth'});
+  }
+
 
   return (
     <div className='container'>
       <div className='landingpage'>
-        <NavBar />
+      <div ref={refGoTop}></div>
+        <NavBar clickAbout={handleClickAbout} clickResume={handleClickResume} clickProjects={handleClickProjects} clickContact={handleClickContact}/>
         <Landing />
         <IconContext.Provider value={{ size: '60px', className: "arrowD"}}>
-                <AiOutlineArrowDown />
+                <AiOutlineArrowDown onClick={handleClickAbout}/>
         </IconContext.Provider>
       </div>
+      <div ref={refGoAbout}></div>
       <About />
+      <div ref={refGoResume}></div>
       <Resume />
+      <div ref={refGoProjects}></div>
       <Projects />
       {/* <Hobbies />
       <Statistics /> */}
-      <Contact />
+      <div ref={refGoContact}></div>
+      <Contact click={handleClick} />
       <Footer />
-      <button>go top</button>
+      
     </div>
   );
 }

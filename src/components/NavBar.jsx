@@ -7,18 +7,20 @@ import {
 } from "react-router-dom";
 import '../css files/navbar.css';
 
-export default function NavBar() {
+const NavBar = (props) => {
+
+
   return (
     <Router>
       <div className="navBar">
         <div className="links">
           <Link className="options" to="/home">Home</Link>
-          <Link className="options" to="/about">About</Link>
-          <Link className="options" to="/resume">Resume</Link>
-          <Link className="options" to="/projects">Projects</Link>
+          <Link className="options" to="/about" onClick={props.clickAbout}>About</Link>
+          <Link className="options" to="/resume" onClick={props.clickResume}>Resume</Link>
+          <Link className="options" to="/projects" onClick={props.clickProjects}>Projects</Link>
           <Link className="options" to="/activities">Activities</Link>
           <Link className="options" to="/statistics">Statistics</Link>
-          <Link className="options" to="/contact">Contact</Link>
+          <Link className="options" to="/contact" onClick={props.clickContact}>Contact</Link>
         </div>
         
         {/* A <Switch> looks through its children <Route>s and
@@ -43,3 +45,5 @@ export default function NavBar() {
     </Router>
   );
 }
+
+export default NavBar;

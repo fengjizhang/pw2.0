@@ -73,3 +73,30 @@
     color: rgb(224, 224, 224);
     font-weight: lighter;
 }
+
+.goTopButton {
+    color: #EB8A3D;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-top: 20%;
+    margin-left: 95%;
+}
+
+.goTopButton:hover {
+    cursor: pointer;
+    animation: MoveUpDown 1s linear;
+}
+
+@keyframes MoveUpDown {
+0%, 100% {
+    bottom: 0;
+}
+30% {
+    bottom: 20px;
+}
+}
+
+.goTopText {
+    margin-left: 95%;
+}
