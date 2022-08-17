@@ -55,7 +55,7 @@ const Contact = (props) => {
             
             <IconContext.Provider value={{ color: "white", size: '50px', className: "contactIcons" }}>
                 <AiFillCaretUp className="goTopButton" onClick={props.click} />
-                <div className='goTopText'>Go top</div>
+                {/* <div className='goTopText'>Go top</div> */}
             </IconContext.Provider>
         </div>
     )
