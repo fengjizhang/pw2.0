@@ -7,7 +7,19 @@ const Resume = (props) => {
             <h4 className='resumeone'>Resume</h4><br></br>
             <div className='resumetwo'>More of my credentials.</div>
             <div className='resumethree'>Here are my experiences and education.</div><br></br>
-            <p className='resumefour'>Software Engineering Projects</p>
+            <p className='resumefour'>Software Engineering Applications</p>
+
+            <div className='containerExp'>
+                <p className='resume5'>CTrack 1.0<br></br>
+                <span className='resume6'>Fullstack app that tracks and visualizes location of celestial objects. </span><br></br>
+                <span className='resume7'>Visualized location data of celestial objects relative to the planet in a presentable fashion utilizing leaflet map library. 
+                    Implemented REST integration with data APIs for user option customization, utilizing NodeJS, and MongoDB for database access and storage. 
+                    Designed a rich and responsive user experience interface utilizing ReactJS, which provides users with options for a customized display on map.
+                </span>
+                </p><br></br>
+            </div>
+
+
             <div className='containerExp'>
                 <p className='resume5'>Bark<br></br>
                 <span className='resume6'>Fullstack social media website</span><br></br>
@@ -40,8 +52,8 @@ const Resume = (props) => {
 
             <p className='resumefour'>Education</p>
             <div className='containerEdu'>
-                <p className='resume8'>Ohio State University - Electrical and Computer Engineering <br></br><span className='resume11'>Bachelor's Degree, 2024</span><br></br>
-                <span className='resume9'>Relevant Courseworks: Software in Java I &#38; II, C++, Data Structure &#38; Algorithms, Linear Algebra, Matlab</span><br></br>
+                <p className='resume8'>Ohio State University - Electrical and Computer Engineering <br></br><span className='resume11'>BS.ECE, Expected Graduation: Spring 2024</span><br></br>
+                <span className='resume9'>Relevant Courseworks: Software in Java I &#38; II, Programming in C, Programming in C++, Data Structure &#38; Algorithms, Solidworks, Matlab</span><br></br>
                 </p><br></br>
             </div>
 
