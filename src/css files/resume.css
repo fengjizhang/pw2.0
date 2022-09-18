@@ -71,8 +71,44 @@
     font-size: 15px;
 }
 
+
+.educationContainer {
+    width: 60%;
+    margin-top: 3%;
+    /* border-style: dashed;
+    border-width: 5px;
+    border-color: black; */
+    display: flex;
+    flex-direction: row;
+}
+
+.left1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(37, 37, 37);
+    font-size: 25px;
+    /* temporary border */
+    width: 20%;
+    margin-top: 1%;
+}
+
+.resume13 {
+    
+    margin-left: 15%;
+}
+
+.right1 {
+}
 .resume11 {
     font-weight: lighter;
+    font-size: 30px;
+    color: rgb(36, 36, 36);
+}
+
+.resume12 {
+    font-weight: lighter;
     font-size: 20px;
-    color: rgb(151, 151, 151);
+    color: rgb(68, 68, 68);
 }

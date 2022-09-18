@@ -50,11 +50,24 @@ const Resume = (props) => {
                 </p><br></br>
             </div>
 
+                {/* <p className='resumefour'>Education</p>
+                <div className='containerEdu'>
+                    <p className='resume8'>Ohio State University - Electrical and Computer Engineering <br></br><span className='resume11'>BS.ECE, Expected Graduation: Spring 2024</span><br></br>
+                    <span className='resume9'>Relevant Courseworks: Software in Java I &#38; II, Programming in C, Programming in C++, Data Structure &#38; Algorithms, Solidworks, Matlab</span><br></br>
+                    </p><br></br>
+                </div> */}
+
             <p className='resumefour'>Education</p>
-            <div className='containerEdu'>
-                <p className='resume8'>Ohio State University - Electrical and Computer Engineering <br></br><span className='resume11'>BS.ECE, Expected Graduation: Spring 2024</span><br></br>
-                <span className='resume9'>Relevant Courseworks: Software in Java I &#38; II, Programming in C, Programming in C++, Data Structure &#38; Algorithms, Solidworks, Matlab</span><br></br>
-                </p><br></br>
+            <div className='educationContainer'>
+                <span className='left1'>
+                    <span className='resume10'>B.S. ECE</span>
+                    <span className='resume13'>2024</span> 
+                </span>
+                <span className='right1'>
+
+                    <span className='resume11'>Ohio State University - Electrical and Computer Engineering</span><br></br>
+                    <span className='resume12'>Relevant Courseworks: Software in Java I &#38; II, Advanced C Programming, C++, Data Structure &#38; Algorithms, Solidworks, Matlab</span><br></br>
+                </span>
             </div>
 
             {/* <div className='containerEdu'>
