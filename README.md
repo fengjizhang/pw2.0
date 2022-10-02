@@ -9,6 +9,6 @@ In the project directory, you can run:
 ### `npm start`!
 
 
-[Screenshot from 2022-10-02 16-26-34](https://user-images.githubusercontent.com/99811913/193474808-4db22f47-79dc-4672-a566-2f8cb5956049.png)
+Pictures: (https://user-images.githubusercontent.com/99811913/193474808-4db22f47-79dc-4672-a566-2f8cb5956049.png)
 
 
