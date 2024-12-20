@@ -17,7 +17,7 @@ const About = (props) => {
                     <div className='category'>Email:</div>
                     <div className='info'>fengji.zhang0@gmail.com</div>
                     <div className='category'>Phone:</div>
-                    <div>(917) 251 - 3612</div>
+                    <div></div>
                 </div>
                 <div >
                     <div className='about3'>Skills</div>
